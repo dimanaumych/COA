@@ -1,5 +1,5 @@
 $(function(){
-    $('.our-clients-slider').slick({
+    $('.industries-slider').slick({
         slidesToShow:3,
         slidesToScroll: 1,
         rows: 1,
@@ -9,8 +9,8 @@ $(function(){
         infinite: true,
         draggable: true,
         dots: false,
-        prevArrow: $('.our-clients-left-arrow'),
-        nextArrow: $('.our-client-right-arrow'),
+        prevArrow: $('.industries-left-button'),
+        nextArrow: $('.industries-right-button'),
         responsive: [
             {
                 breakpoint: 1225,
