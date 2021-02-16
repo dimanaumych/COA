@@ -16,9 +16,9 @@ $('.cancel-btn').on('click', function(e) {
 });
 
 // $('.codrops-demos_sidebar a').on('click', (e)=>{
-//     // e.preventDefault();
 //     $('.left_sidebar').toggleClass('menu_active');
 //     $('.main_content').toggleClass('content_active');
+//     $('.left_sidebar').css('overflowX','inherit')
 //     setTimeout(()=>{
 //         $('.menu-btn').css("display","flex");
 //     }, 280)
@@ -26,7 +26,6 @@ $('.cancel-btn').on('click', function(e) {
 // DROPDOWN MENU
 // $('.menu li:nth-child(2) a').remove();
 $('.menu li:nth-child(2)').click(()=>{
-    console.log('CLICK1!!');
     $('.menu li:nth-child(2) .sub-menu').css('display', 'block');
     function closeMenu(event){
         if (!event.target.closest('.sub-menu')){
@@ -48,6 +47,5 @@ jQuery(document).ready(function(){
 });
 
 $('#primary-menu>ul>li:last>a').click((e)=>{
-    console.log('TEST231');
     e.preventDefault()
 });

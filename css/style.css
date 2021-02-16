@@ -1,0 +1,762 @@
+body{
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+/*Bank Account*/
+.bank-account-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+.bank-account{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    font-family: "Open Sans";
+}
+.bank-account:not(:last-child){
+    border-bottom: 1px solid #C4A676;
+}
+
+.bank-account img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 180px;
+}
+.bank-account-title{
+    margin-top: 50px;
+    width: 25%;
+    letter-spacing: 1px;
+}
+.bank-account-text{
+    width: 40%;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.bank-account-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(196, 166, 118, 1);
+    margin-top: 10px;
+}
+/*Bank Account*/
+
+/*OUR TEAM*/
+.our-team-wrapper, .our-clients-wrapper{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.our-team-slider-wrapper, .our-clients-slider-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-clients-slider-wrapper{
+    margin-top: 50px;
+}
+.our-team-left-arrow, .our-team-right-arrow, .our-clients-left-arrow, .our-client-right-arrow{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.our-team-slider, .our-clients-slider{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+}
+.our-team-slider img{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+}
+.our-clients-slider .slick-track{
+    display: flex;
+    align-items: center;
+}
+.our-clients-slider img{
+    width: 230px;
+    height: auto;
+}
+.our-team-slide, .our-clients-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.team-member-name{
+    font-family: Roboto;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.team-member-position{
+    font-family: Roboto;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+/*OUR TEAM*/
+/*OUR CONTACT*/
+.contact-wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-info{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.contact-info div:nth-child(1){
+    width: 35%;
+}
+.contact-info div:nth-child(2), .contact-info div:nth-child(3){
+    width: 25%;
+}
+.contact-info-title{
+    font-family: Roboto;
+    font-size: 2rem;
+    color: #C4A676;
+    margin-bottom: 30px;
+}
+.contact-info p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+/*OUR CONTACT*/
+/*About-us-start*/
+.about-us-wrapper{
+    width: 100%;
+}
+.about-us-title, .services-title, .our-team-title, .our-client-title{
+    font-family: Roboto;
+    display: flex;
+    width: 50%;
+    border-bottom: 1px solid #C4A676;
+    justify-content: flex-end;
+    color: #C4A676;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+}
+.about-us-info{
+    margin-top: 81px;
+    display: flex;
+    justify-content: flex-start;
+}
+.about-us-info img{
+    width: 50%;
+    margin-right: 38px;
+}
+.about-us-info p{
+    width: 30%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3C3C3C;
+}
+
+
+/*About-us-end*/
+
+/*Service-start*/
+
+.services-wrapper{
+    width: 100%;
+    background: #F8F8F8;
+    padding-top: 110px;
+}
+
+.services-title{
+    display: flex;
+    width: 50%;
+    border-bottom: 1px solid #C4A676;
+    justify-content: flex-end;
+    color: #C4A676;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 110px;
+}
+
+.services-container{
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.service-point-wrapper{
+    width: 50%;
+    display: flex;
+}
+.service-point-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-point{
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.service-point img{
+    width: 70px;
+}
+.service-score{
+    width: 50%;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+}
+.service-score-wrapper{
+    background: white;
+    width: 60%;
+    padding: 63px 42px;
+    margin: 0px auto;
+}
+.line-gold{
+    width: 320px;
+    height: 1px;
+    background: #C4A676;
+    margin-bottom: 66px;
+}
+
+.service-score-text{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #000000;
+}
+.service-score-wrapper span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #C4A676;
+}
+/*Service-end*/
+
+/*Adv-header-start*/
+
+.adv-header-plus{
+    width: 100%;
+}
+
+.icon-wrapper{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    padding: 75px 60px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgba(13, 13, 13, 0.12);
+}
+
+.icon-point{
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.icon-point img{
+    display: flex;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.icon-point p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+/*Adv-header-end*/
+
+/*Adw-poster-Start*/
+
+.adw-poster{
+    width: 100%;
+    height: 320px;
+    background-image: url("../images/front-page/adw-poster.png");
+    display: flex;
+}
+
+.adw-poster-wrapper{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 0px auto;
+    align-items: center;
+    color: white;
+}
+
+.adw-poster-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    max-width: 500px;
+    color: #FFFFFF;
+}
+
+.adw-poster-button{
+    cursor: pointer;
+    width: 345px;
+    height: 50px;
+    border: 1px solid #C4A676;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: transparent;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.line-adw{
+    width: 100px;
+    height: 1px;
+    background: #C4A676;
+}
+
+/*Adw-poster-End*/
+
+
+/*article-start*/
+
+article{
+    width: 100%;
+    margin-top: 75px;
+}
+
+.article-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+.article-point{
+    display: flex;
+    margin-bottom: 72px;
+}
+
+.article-text-wrapper{
+    width: 70%;
+    padding: 61px 65px;
+    background: #F8F8F8;
+}
+
+.article-title{
+    font-family: Open Sans SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2D2D2D;
+    margin-bottom: 25px;
+}
+
+.article-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3C3C3C;
+}
+
+/*article-end*/
+
+
+/*Footer-Start*/
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    width: 100%;
+    border-bottom: 1px solid #C4A676;
+}
+
+.footer-wrapper{
+    padding-bottom: 45px;
+    padding-top: 45px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper img{
+    cursor: pointer;
+}
+
+.footer-button{
+    cursor: pointer;
+    width: 345px;
+    height: 50px;
+    border: 1px solid #C4A676;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.made-by{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*Footer-End*/
+
+
+.service-point p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 1250px) {
+
+
+
+    .footer-wrapper {
+        justify-content: space-around;
+    }
+
+    .bank-account{
+        width: 90%;
+    }
+    .our-team-slider-wrapper, .our-clients-slider-wrapper{
+        width: 90%;
+    }
+    .our-team-slider img{
+        width: auto;
+        height: auto;
+    }
+    .our-clients-slider img{
+        width: 200px;
+        height: auto;
+    }
+    .contact-info {
+        width: 960px;
+    }
+}
+@media (max-width: 1026px) {
+
+    .service-point-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bank-account img{
+        width: 200px;
+        height: 200px;
+    }
+    .bank-account-title{
+        font-size: 1rem;
+    }
+    .bank-account-price{
+        font-size: 1rem;
+    }
+    .bank-account-text{
+        font-size: .9rem;
+    }
+    .our-team-slider-wrapper, .our-clients-slider-wrapper {
+        width: 90%;
+    }
+    .our-team-slider, .our-clients-slider{
+        width: 80%;
+    }
+    .our-team-slider img{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 170px;
+        height: 220px;
+        margin:  0 auto;
+    }
+    .our-clients-slider img{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 180px;
+        height: auto;
+        margin:  0 auto;
+    }
+    .contact-info {
+        width: 90%;
+    }
+
+
+    .services-container {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .service-point-wrapper {
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .article-img{
+        margin: 0px auto;
+    }
+
+    .adw-poster-wrapper {
+        flex-direction: column;
+    }
+
+    .service-point-container {
+        margin-top: 40px;
+    }
+
+    .article-point {
+        flex-direction: column;
+    }
+
+    .article-text-wrapper {
+        margin: 0px auto;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .our-team-slider-wrapper, .our-clients-slider-wrapper {
+        width: 90%;
+    }
+    .our-team-slider, .our-clients-slider{
+        width: 85%;
+    }
+    .our-clients-slider img{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 150px;
+        height: auto;
+        margin:  0 auto;
+    }
+    .about-us-title, .services-title, .our-team-title, .our-client-title{
+        font-family: Roboto;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #C4A676;
+        justify-content: center;
+        color: #C4A676;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 55px;
+        text-align: center;
+    }
+
+    .article-img img{
+        width: 300px;
+    }
+
+    .line-gold {
+        width: 140px;
+        height: 1px;
+        background: #C4A676;
+        margin-bottom: 66px;
+    }
+    .about-us-info {
+        flex-direction: column;
+        margin: 0px auto;
+        margin-top: 81px;
+    }
+
+    .about-us-info img {
+        margin: 0px auto;
+    }
+
+    .about-us-info p{
+        margin: 0px auto;
+        margin-top: 40px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 760px) {
+    .bank-account{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bank-account img{
+        width: 250px;
+        height: 250px;
+    }
+    .bank-account-text, .bank-account-title{
+        width: 100%;
+    }
+    .bank-account-title{
+        text-align: center;
+    }
+
+    .icon-wrapper {
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 670px) {
+    .contact-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-info div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contact-info div:nth-child(1){
+        width: 90%;
+        padding-left: 10px;
+    }
+    .contact-info div:nth-child(2), .contact-info div:nth-child(3){
+        width: 90%;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .our-team-slider-wrapper, .our-clients-slider-wrapper{
+        width: 90%;
+    }
+    .our-team-slider, .our-clients-slider{
+        width: 80%;
+    }
+    .our-team-slider img{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 250px;
+        height: 300px;
+        margin:  0 auto;
+    }
+    .our-clients-slider img{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 200px;
+        height: auto;
+        margin:  0 auto;
+    }
+
+    .article-text-wrapper {
+        width: 60%;
+    }
+}
+@media (max-width: 370px) {
+    .our-team-slider-wrapper {
+        width: 90%;
+    }
+    .our-team-slider{
+        width: 80%;
+    }
+    .our-team-slider img{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        width: 170px;
+        height: 220px;
+        margin:  0 auto;
+    }
+
+    .service-score {
+        width: 88%;
+    }
+
+    .service-score-wrapper {
+        width: 100%;
+    }
+
+    .line-gold {
+        width: 200px;
+    }
+
+    .adw-poster {
+        height: 468px;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .adw-poster-button {
+        width: 260px;
+        color: black;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-wrapper img {
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    .footer-button {
+        width: 300px;
+    }
+
+}
