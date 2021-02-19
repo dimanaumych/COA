@@ -4,8 +4,6 @@ $(function(){
         slidesToScroll: 1,
         rows: 1,
         arrows: true,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
         infinite: true,
         draggable: true,
         dots: false,
