@@ -1,0 +1,85 @@
+.case-studies-wrapper{
+    width: 100%;
+}
+.case-studies-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.case-studies-nav{
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 70px;
+    color: #26506C;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.case-studies-nav li:hover{
+    cursor: pointer;
+}
+.study-cases{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.study-case:nth-child(2n){
+    margin-top: 70px;
+}
+.study-case{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.mask-service{
+    height: 100%;
+    -webkit-mask: url('../images/sd1.svg') center center / 100% 100% no-repeat;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.mask-service-rel{
+    position: relative;
+}
+
+.mask-service-abs{
+    position: absolute;
+    left: -30px;
+    top: 5%;
+    height: 90%;
+    -webkit-mask: url('../images/sd1.svg') center center / 100% 100% no-repeat;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 30px;
+}
+.case-btn{
+    background: #2FBBC5;
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: Roboto;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.study-case:nth-child(2n) .case-btn{
+    background: #26506C;
+}
